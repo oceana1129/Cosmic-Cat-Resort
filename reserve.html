@@ -62,7 +62,7 @@
   
     <main id="main">
       <!-- ======= Buy Ticket Section ======= -->
-    <section id="buy-tickets" class="section-with-bg">
+    <section id="buy-tickets">
         <div class="container" data-aos="fade-up">
   
           <div class="section-header">
@@ -72,8 +72,8 @@
   
           <div class="row">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-              <div class="card mb-5 mb-lg-0">
-                <div class="card-body">
+              <div class="card mb-5 mb-lg-0 section-with-bg">
+                <div class="card-body section-with-bg">
                   <h5 class="card-title text-muted text-uppercase text-center">Standard Badge</h5>
                   <h6 class="card-price text-center">$150</h6>
                   <hr>
@@ -94,9 +94,9 @@
             </div>
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="card mb-5 mb-lg-0">
-                <div class="card-body">
+                <div class="card-body section-with-bg">
                   <h5 class="card-title text-muted text-uppercase text-center">Pro Badge</h5>
-                  <h6 class="card-price text-center">$250</h6>
+                  <h6 class="card-price text-center section-with-bg">$250</h6>
                   <hr>
                   <ul class="fa-ul">
                     <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
@@ -116,7 +116,7 @@
             <!-- Pro Tier -->
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body section-with-bg">
                   <h5 class="card-title text-muted text-uppercase text-center">Premium Badge</h5>
                   <h6 class="card-price text-center">$350</h6>
                   <hr>
@@ -149,7 +149,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form method="POST" action="#">
+                <form action="reserveSpot.html" method="POST" data-netlify="true">
                   <div class="form-group">
                     <input type="text" class="form-control" name="your-name" placeholder="Your Name">
                   </div>
