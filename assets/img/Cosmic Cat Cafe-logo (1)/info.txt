@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: fibra-light
+font link: https://www.fontspring.com/fonts/los-andes-type/fibra/fibra-light
+font author: Los Andes Type
+font author site: https://losandestype.myportfolio.com/
+
+
+icon designer: Alexxx
+icon designer link: /alexofthenight
+        
+
+fontColor: {"gradient-0":"#3EDEE5","gradient-1":"#983EE5"}
+bgColor: {"hex":"transparent"}
+iconColor: {"gradient-0":"#3EDEE5","gradient-1":"#983EE5"}
+
+      
