@@ -1227,7 +1227,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #e0072f;
+  color: #983EE5;
   transition: 0.3s;
 }
 
@@ -1449,8 +1449,12 @@ li.text-muted{
   margin-bottom: 0;
   color: #112363;
 }
-#contact a, #contact p, #contact address, #contact button{
+#contact a, #contact p, #contact address, #contact button, #faq p, #about p, #schedule .schedule-item p{
   font-size: 14px;
+  line-height: 1.5em;
+}
+.mediumFont{
+  font-size: 16px;
 }
 #contact .contact-info h3 {
   font-size: 18px;
