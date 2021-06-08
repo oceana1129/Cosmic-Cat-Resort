@@ -136,10 +136,14 @@ h1, h2, h3, h4, h5, h6 {
   overflow: visible;
   background: #fff url("../img/preloader.png") no-repeat center center;
 }
+#hotels .learnMore a{
+  color: white;
+}
 .learnMore{
   display: flex;
   justify-content: center;
 }
+
 .learnMore a:hover{
   color:#413447;
 }
@@ -1023,7 +1027,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/venue-info-bg.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1449,7 +1453,7 @@ li.text-muted{
   margin-bottom: 0;
   color: #112363;
 }
-#contact a, #contact p, #contact address, #contact button, #faq p, #about p, #schedule .schedule-item p, .details p{
+#contact a, #contact p, #contact address, #contact button, #faq p, #about p, #schedule .schedule-item p, .details p, .venue-info p{
   font-size: 14px;
   line-height: 1.5em;
 }
