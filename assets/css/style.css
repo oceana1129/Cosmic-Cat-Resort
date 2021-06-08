@@ -1744,3 +1744,11 @@ label{
   left: -13%;
   height: 300px;
 }
+.price{
+  font-size: 16px;
+  color: #983EE5;
+}
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+}
